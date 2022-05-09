@@ -22,7 +22,7 @@ function upload(event){
   function onLogin(){
     if(ID.value=="asd" && PW.value=="asd"){
       alert("로그인 성공");
-      location.href ="/practice/practice_total.html";
+      location.href ="./practice/practice_total.html";
     }else{
       alert("로그인 실패");
     }
